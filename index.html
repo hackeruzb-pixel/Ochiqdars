@@ -154,28 +154,39 @@
       </div>
 
       <!-- progress -->
-      <div style="position:absolute;left:20px;top:18px;">
-        <div class="progress-wrap">
-          <div id="progress" class="progress"></div>
-        </div>
-      </div>
+      </div> <!-- slides tugadi -->
 
-      <!-- controls -->
-      <div class="controls">
-        <button class="btn" id="prev">◀</button>
-        <button class="btn" id="playPause">⏸</button>
-        <button class="btn" id="next">▶</button>
-      </div>
-
-      <!-- dots -->
-      <div style="position:absolute;bottom:70px;left:50%;transform:translateX(-50%)">
-        <div class="dotbar" id="dots"></div>
-      </div>
-
-      <audio id="bgAudio" loop src="./audio/music.mp3"></audio>
-
-    </div>
+<!-- progress -->
+<div style="position:absolute;left:20px;top:18px;">
+  <div class="progress-wrap">
+    <div id="progress" class="progress"></div>
   </div>
+</div>
+
+<!-- controls -->
+<div class="controls">
+  <div class="left-controls">
+    <button class="btn" id="prev">◀ Oldingi</button>
+    <button class="btn" id="playPause">⏸ Pauza</button>
+    <button class="btn" id="next">Keyingi ▶</button>
+  </div>
+  <div class="right-controls">
+    <button class="btn" id="audioToggle">▶️</button>
+    <button class="btn" id="themeToggle">
+      <span id="themeIcon">🌙</span>
+    </button>
+  </div>
+</div>
+
+<!-- dots -->
+<div style="position:absolute;bottom:76px;left:50%;transform:translateX(-50%);z-index:70">
+  <div class="dotbar" id="dots"></div>
+</div>
+
+<audio id="bgAudio" loop src="./audio/educational-education-school-music-365337-404269.mp3"></audio>
+
+</div> <!-- stage -->
+</div> <!-- screen -->
 
   <script src="script.js"></script>  
 </body>  
